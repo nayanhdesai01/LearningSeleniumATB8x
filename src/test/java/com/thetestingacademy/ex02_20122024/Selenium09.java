@@ -27,6 +27,7 @@ public class Selenium09 {
 
         // Alternate way to maximize
         //driver.manage().window().maximize();
+
         // TestNG Assertion
         Assert.assertEquals(driver.getTitle(), "CURA Healthcare Service");
 
@@ -39,9 +40,6 @@ public class Selenium09 {
         } else {
             throw new Exception("Heading not Found!!!");
         }
-
-        // "" - Empty , " " - blank
-
         driver.quit();
     }
 }
