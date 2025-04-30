@@ -49,7 +49,5 @@ public class Selenium_Task004 {
         createAccount.click();
 
 
-
-
     }
 }
